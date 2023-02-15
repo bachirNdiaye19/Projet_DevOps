@@ -1,0 +1,8 @@
+Dans un premier temps j'ai installé wordpress et mysql ainsi que leurs configurations
+par un docker compose qui est dans le repository.
+Dans un second temps j'ai creé un dessier AnsibleDeploy qui contient 
+les fichiers qui nous permet de faire les automatisations et les deploiements
+dans nos serveurs {wordpress,mysql}.
+Dans une prochaine etape je compte creer un script qui va automatiser 
+le lancement des conteneurs et leurs supressions aussi continuer le travail
+sur ansible. 

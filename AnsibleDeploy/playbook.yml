@@ -1,0 +1,6 @@
+---
+- name: "Deploiement avec Ansible dans les servers wordpress et mysql"
+  hosts: All
+  tasks:
+    - name: "On fait notre premier deploiement"
+      apt:
